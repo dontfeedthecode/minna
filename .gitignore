@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+.DS_Store
+*.log
+.vite
+.env
+.env.local
+
+# Local-only Claude Code machine settings
+.claude/settings.local.json
+
+# Build-time YAML cache for the vocab pipeline (re-fetched on demand)
+.cache/
